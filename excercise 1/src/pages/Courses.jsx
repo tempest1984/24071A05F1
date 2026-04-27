@@ -58,7 +58,9 @@ const Courses = () => {
                   <span key={tag} className="badge badge-success">{tag}</span>
                 ))}
               </div>
-              <h3>{course.title}</h3>
+              <Link to={`/course/${course.id}`}>
+                <h3>{course.title}</h3>
+              </Link>
               <p className="instructor">by {course.instructor}</p>
               
               <div className="course-meta">
