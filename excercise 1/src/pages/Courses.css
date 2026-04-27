@@ -1,0 +1,47 @@
+.courses-page {
+  padding: 10px;
+}
+
+.courses-header {
+  margin-bottom: 20px;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.course-card {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.course-image-wrapper {
+  width: 100%;
+  height: 150px;
+  background-color: #ddd;
+  margin-bottom: 10px;
+}
+
+.course-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.course-overlay {
+  display: none;
+}
+
+.course-tags {
+  margin-bottom: 10px;
+}
+
+.course-meta {
+  margin-top: 10px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
